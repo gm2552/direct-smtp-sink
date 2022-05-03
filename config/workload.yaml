@@ -21,4 +21,4 @@ spec:
     git:
       url: https://github.com/gm2552/direct-smtp-sink.git
       ref:
-        branch: master
+        branch: main
