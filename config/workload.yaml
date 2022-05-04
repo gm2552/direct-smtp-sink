@@ -4,13 +4,8 @@ metadata:
   name: direct-smtp-sink
   labels:
     apps.tanzu.vmware.com/workload-type: queue
-    app.kubernetes.io/part-of: direct-project
+    app.kubernetes.io/part-of: direct-smtp-sink
 spec:
-  params:
-  - value:
-    - containerPort: 1026
-      port: 1026
-    name: ports
   serviceClaims:
   - name: rmq
     ref:
